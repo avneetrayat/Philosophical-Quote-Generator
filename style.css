@@ -1,0 +1,81 @@
+.playwrite-au-vic-<uniquifier> {
+    font-family: "Playwrite AU VIC", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+
+.inconsolata-<uniquifier> {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Inconsolata', monospace; 
+    margin: 0;
+    background: url("bg2.jpg") no-repeat center center fixed; 
+    background-size: cover; 
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto; 
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5); /* Optionally, apply a semi-transparent overlay */
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace; 
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#quote-box {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    word-wrap: break-word;
+}
+
+.quote-text {
+    font-family: 'Playwrite AU VIC', cursive; 
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff; 
+}
+
+.author-text {
+    font-family: 'Inconsolata', monospace; 
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3a1346;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; 
+}
+
+button:hover {
+    background-color: #9f2fb1;
+}
